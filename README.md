@@ -1,4 +1,4 @@
-android-maven-sample
+#Android Maven Sample
 ====================
 
 Sample android project with dependencies which leverages maven
