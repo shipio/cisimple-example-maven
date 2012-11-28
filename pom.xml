@@ -10,7 +10,7 @@
     <name>Android Packager</name>
 
     <modules>
-        <module>test-main</module>
+        <module>main</module>
         <module>sub-dir/dependency1</module>
         <module>dependency2</module>
     </modules>
