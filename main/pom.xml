@@ -26,17 +26,24 @@
             <version>0.0.1</version>
             <type>apklib</type>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.8.2</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
-        <sourceDirectory>src</sourceDirectory>
+        <sourceDirectory>src/main/java</sourceDirectory>
         <plugins>
             <plugin>
                 <groupId>com.jayway.maven.plugins.android.generation2</groupId>
                 <artifactId>android-maven-plugin</artifactId>
+                <version>3.4.1</version>
                 <configuration>
                     <sdk>
-                        <platform>16</platform>
+                        <platform>15</platform>
                     </sdk>
                 </configuration>
                 <extensions>true</extensions>
