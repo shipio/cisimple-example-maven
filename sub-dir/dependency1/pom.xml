@@ -5,18 +5,18 @@
     <parent>
         <groupId>com.cisimple.app</groupId>
         <artifactId>cisimple-test-app</artifactId>
-        <version>0.0.1</version>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>dependency1</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>apklib</packaging>
 
     <dependencies>
         <dependency>
             <groupId>com.cisimple.app</groupId>
             <artifactId>dependency2</artifactId>
-            <version>0.0.1</version>
+            <version>0.0.1-SNAPSHOT</version>
             <type>apklib</type>
         </dependency>
         <dependency>
